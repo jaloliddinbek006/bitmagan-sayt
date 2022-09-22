@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+:root{
+    --big-color: #060e7a;
+    --small-color:#a8830a;
+    --font-big:'Roboto Condensed', sans-serif;
+    --small-font: 'Montserrat', sans-serif;
+
+
+}
+
+.header{
+    background-color: #fff;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.bola h1{
+    font-family: var(--small-font);
+    font-weight: 700;
+    
+}
+.ona{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+}
+.bola_one ul li{
+    display: inline;
+    padding: 0 30px;
+    
+}
+.bola_one ul li a{
+    text-decoration: none;
+    color: #333;
+    font-family: var(--small-font);
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.bola_one ul li a:hover{
+    color: #666;
+    transition: .3 ease;
+}
+.btn{
+    font-size: 16px;
+    font-family: var(--small-font);
+    font-weight: 600;
+    background-color: #fff;
+    border: none;
+    border-radius:5px ;
+    padding: 10px 20px  ;
+    margin-right: 20px;
+}
+.btn:hover{
+    cursor: pointer;
+    color: #96BB7C;
+    transition: .3s ease;
+}
+.bt{
+    cursor: pointer;
+    font-size: 16px;
+    font-family: var(--small-font);
+    font-weight: 600;
+    background-color: #96BB7C;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 25px  ;
+    text-transform: uppercase;
+}
+.banner{
+    height: 100vh;
+    background-image: url(../img/8379.jpg);
+    background-position: center;
+}
+.mother{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
+}
+.child h4{
+    color: #76ce37;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-family: var(--small-font);
+}
+.child h1{
+    font-family: var(--small-font);
+    font-size: 70px;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+.child_one{
+   background-color: #2c35b1;
+   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
